@@ -1,0 +1,6 @@
+.first {
+	/* display: none; */
+
+	/*  Visibility set to hidden The Element is disappear but the Space is still Allocated */
+	visibility: hidden;
+}
