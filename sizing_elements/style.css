@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 10px;
+}
+
+.box::before {
+	content: "What is up";
+}
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: gold;
+	/* padding: 20px;
+	border: 10px solid orange; */
+
+	/* box-sizing: border-box; */
+
+	display: inline-block;
+}
