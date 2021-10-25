@@ -1,0 +1,8 @@
+.meal {
+	width: 100vw;
+	background-size: cover;
+}
+
+.meal:hover {
+	width: 10vw;
+}
